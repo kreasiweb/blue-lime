@@ -13,16 +13,6 @@ excerpt: >-
   Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat
   Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum
   vitium consuetudo Latina traduceret.
-sections:
-  - type: slider_section
-    template: slider_section
-    slides:
-      - image: /uploads/hero-1.jpg
-        alt_text: home 1
-        title: Handmade Hand Carved Coffee
-        subtitle: As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.
-        button_text: order now
-        button_link: /order
 layout: blog
 ---
 

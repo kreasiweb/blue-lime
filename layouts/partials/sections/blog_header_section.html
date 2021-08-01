@@ -13,6 +13,13 @@
   <div class="bg-image__image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}; background-position: {{ $background_position }};"></div>
   {{ end }}
 
+  	<div class="flex items-center justify-center">
+		<div class="section__body text-center">
+			<h1 class="section__title text-xl lg:text-4xl capitalize">{{ .Title }}</h1> 
+            {{ partial "breadcrumb.html" . }} 
+        </div>
+	</div>
+
   <div class="container container">
     <div class="flex flex--middle flex--center flex--col-2{{ if eq $section.align "center" }} align-center{{ end }}{{ if eq $section.align "right" }} align-right{{ end }}">
 

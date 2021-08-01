@@ -1,21 +1,21 @@
-{{ $section := .section }}
-{{ $background := $section.background }}
-{{ $background_color := $background.background_color | default "white" }}
-{{ $background_opacity_pct := $background.background_image_opacity | default 100 }}
-{{ $background_opacity := mul $background_opacity_pct 0.01 }}
-{{ $background_size := $background.background_image_size | default "cover" }}
-{{ $background_repeat := $background.background_image_repeat | default "no-repeat" }}
-{{ $background_position := $background.background_position | default "center" }}
+{{- $section := .section }}
+{{- $background := $section.background }}
+{{- $background_color := $background.background_color | default "white" }}
+{{- $background_opacity_pct := $background.background_image_opacity | default 100 }}
+{{- $background_opacity := mul $background_opacity_pct 0.01 }}
+{{- $background_size := $background.background_image_size | default "cover" }}
+{{- $background_repeat := $background.background_image_repeat | default "no-repeat" }}
+{{- $background_position := $background.background_position | default "center" }}
 
 <section class="section bg-body py-12 px-3 mb-8">
-  {{ if and $section.has_background $background.background_image }}
+  {{- if and $section.has_background $background.background_image }}
   <div class="section__bg-image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}; background-position: {{ $background_position }};">
-  {{ end }}
+  {{- end }}
   	<div class="flex items-center justify-center">
 		<div class="section__body text-center">
-            {{ if $section.title }}
+            {{- if $section.title }}
 			<h1 class="section__title text-header-text text-xl lg:text-4xl capitalize">{{ $section.title }}</h1> 
-            {{ end }}
+            {{- end }}
             {{ partial "breadcrumb.html" . }} 
         </div>
 	</div>

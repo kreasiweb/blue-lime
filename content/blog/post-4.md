@@ -1,7 +1,7 @@
 ---
 title: Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
 date: '2020-05-30'
-authors: 
+authors:
   - Arlina
 categories:
   - Netlify

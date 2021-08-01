@@ -13,7 +13,7 @@
   <div class="bg-image__image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}; background-position: {{ $background_position }};"></div>
   {{ end }}
 
-  <div class="container container--lg">
+  <div class="container container">
     <div class="flex flex--middle flex--center flex--col-2{{ if eq $section.align "center" }} align-center{{ end }}{{ if eq $section.align "right" }} align-right{{ end }}">
 
       {{ if $section.image }}

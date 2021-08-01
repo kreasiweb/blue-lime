@@ -13,18 +13,6 @@ excerpt: >-
   Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat
   Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum
   vitium consuetudo Latina traduceret.
-sections:
-  - type: blog_header_section
-    title: This Is A Big Hero Headline
-    has_background: true
-    background:
-      background_color: blue
-      background_image: /uploads/banner.jpg
-      background_image_opacity: 20
-      background_image_size: cover
-      background_image_repeat: repeat
-      background_position: center
-layout: advanced
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Teneo, inquit, finem illi videri nihil dolere. Quid est enim aliud esse versutum. Age, inquies, ista parva sunt. Verum hoc idem saepe faciamus. Atque ab his initiis profecti omnium virtutum et originem et progressionem persecuti sunt. Duo Reges: constructio interrete. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Estne, quaeso, inquam, sitienti in bibendo voluptas? Iam in altera philosophiae parte. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L.

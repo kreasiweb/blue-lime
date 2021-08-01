@@ -1,18 +1,6 @@
 ---
-title: Vos Autem Cum Perspicuis Dubia Debeatis Illustrare
+title: example
 date: '2020-05-30'
-authors:
-  - Arlina
-categories:
-  - Netlify
-tags:
-  - Stackbit
-  - Netlify
-thumbnail: uploads/blog-10-1-465x290.jpg
-excerpt: >-
-  Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat
-  Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum
-  vitium consuetudo Latina traduceret.
 sections:
   - type: blog_header_section
     title: This Is A Big Hero Headline

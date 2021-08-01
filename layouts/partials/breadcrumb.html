@@ -17,7 +17,7 @@
     {{ partial "svg/icon-chevron-right.svg" (dict "class" "w-3 h-3 fill-current text-current ml-1") }}
     {{- if .Params.tags}}
     {{ range $index, $tag := (.GetTerms "tags") }}{{ if gt $index 0 }}, {{ end }}
-    <a class="breadcrumb__tag text-grey-600 hover:text-primary capitalize ml-1" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }} ggg</a>
+    <a class="breadcrumb__tag text-grey-600 hover:text-primary capitalize ml-1" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }}</a>
     {{- end }}
     {{- end }}
     {{- end }}

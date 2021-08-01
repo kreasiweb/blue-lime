@@ -9,7 +9,7 @@
 
 <section class="section bg-body py-12 px-3 mb-8">
   {{ if and $section.has_background $background.background_image }}
-  <div class="section__bg-image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}; background-position: {{ $background_position }};"></div>
+  <div class="section__bg-image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}; background-position: {{ $background_position }};">
   {{ end }}
   	<div class="flex items-center justify-center">
 		<div class="section__body text-center">

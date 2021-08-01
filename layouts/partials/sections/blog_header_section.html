@@ -11,7 +11,6 @@
   {{ if and $section.has_background $background.background_image }}
   <div class="bg-image__image" style="background-image: url('{{ $background.background_image | relURL }}'); opacity: {{ $background_opacity }}; background-size: {{ $background_size }}; background-repeat: {{ $background_repeat }}; background-position: {{ $background_position }};"></div>
   {{ end }}
-
   	<div class="flex items-center justify-center">
 		<div class="section__body text-center">
             {{ if $section.title }}
@@ -20,7 +19,5 @@
             {{ partial "breadcrumb.html" . }} 
         </div>
 	</div>
-
   </div>
-
 </section>

@@ -35,7 +35,7 @@ sections:
       background_color: blue
       background_image: /uploads/banner.jpg
       background_image_opacity: 20
-      background_image_size: auto
+      background_image_size: cover
       background_image_repeat: repeat
 layout: blog
 ---

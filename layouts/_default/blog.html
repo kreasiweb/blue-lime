@@ -1,11 +1,10 @@
 {{- define "content" }}
 <main id="content" class="site-content section bg-body">
-    {{- range $section := .Params.sections }}
-    {{/* Begin block section styling */}}
-    {{- $bg := $section.design.background }}
-    {{- $style := "" }}
-
-
+{{ range $section := .Params.sections }}
+  {{ $include_dict := dict "section" $section "Site" $.Site }}
+  {{ $component := print $section.type ".html" }}
+  {{ partial $component $include_dict }}
+{{ end }}
 
     <div id="hero-section" class="section__hero-section bg-image bg-body py-12 px-3 mb-8"
     style="background-color: gray;background-image: url('/images/banner.jpg');background-size: cover;background-position: center;">

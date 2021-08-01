@@ -14,7 +14,7 @@ excerpt: >-
   Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum
   vitium consuetudo Latina traduceret.
 sections:
-  - type: hero_section
+  - type: blog_header_section
     title: This Is A Big Hero Headline
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus

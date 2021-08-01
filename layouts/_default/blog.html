@@ -5,20 +5,6 @@
     {{- $bg := $section.design.background }}
     {{- $style := "" }}
 
-    {{- if $bg.color }}
-    {{- $style = printf "background-color: %s;" ($bg.color | default "transparent") }}
-    {{- end }}
-
-    {{- if and $bg.gradient_start $bg.gradient_end }}
-    {{- $style = printf "%sbackground-image: linear-gradient(%s, %s);" $style $bg.gradient_start $bg.gradient_end }}
-    {{- end }}
-
-    {{- if $bg.image }}
-    {{- $darken := "" }}
-    {{- if $bg.image_darken }}
-    {{- $darken = printf "linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s))," (string $bg.image_darken) (string $bg.image_darken) }}
-    {{- end }}
-
 
 
     <div id="hero-section" class="section__hero-section bg-image bg-body py-12 px-3 mb-8"

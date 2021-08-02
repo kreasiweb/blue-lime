@@ -6,7 +6,7 @@ buildCommand: hugo --gc --minify
 publishDir: public
 staticDir: static
 uploadDir: images
-dataDir: data
+dataDir: ""
 pagesDir: content
 pageLayoutKey: layout
 logicFields:

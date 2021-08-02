@@ -35,7 +35,7 @@ pageData:
       - '[1].fields.palette'
 models:
   config:
-    type: config
+    type: data
     label: Site Configuration
     file: config.yaml
     fields:

@@ -36,7 +36,7 @@ pageData:
 models:
   config:
     type: config
-    label: Site Configuration
+    label: Konfigurasi Website
     fields:
       - type: string
         name: title

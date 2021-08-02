@@ -5,7 +5,7 @@ nodeVersion: '14.17.4'
 buildCommand: hugo --gc --minify
 publishDir: public
 staticDir: static
-uploadDir: content/uploads/images
+uploadDir: content/uploads
 dataDir: ""
 pagesDir: content
 pageLayoutKey: layout

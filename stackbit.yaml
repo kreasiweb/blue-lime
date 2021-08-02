@@ -5,12 +5,9 @@ nodeVersion: '14.17.4'
 buildCommand: hugo --gc --minify
 publishDir: public
 staticDir: static
-uploadDir: content/uploads
-dataDir: ""
+uploadDir: images
+dataDir: data
 pagesDir: content
-excludePages:
-  - README.md
-  - CONTRIBUTING.md
 pageLayoutKey: layout
 logicFields:
   - blog_feed_section.recent_count
@@ -36,7 +33,7 @@ pageData:
 models:
   config:
     type: config
-    label: Konfigurasi Website
+    label: Site Configuration
     fields:
       - type: string
         name: title

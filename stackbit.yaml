@@ -8,6 +8,10 @@ staticDir: static
 uploadDir: content/uploads
 dataDir: ""
 pagesDir: content
+excludePages:
+  - doc/**/*
+  - README.md
+  - CONTRIBUTING.md
 pageLayoutKey: layout
 logicFields:
   - blog_feed_section.recent_count

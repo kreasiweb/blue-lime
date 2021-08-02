@@ -1,12 +1,16 @@
 stackbitVersion: ~0.3.0
 ssgName: hugo
-ssgVersion: '0.48'
-buildCommand: hugo
+ssgVersion: '0.86.1'
+nodeVersion: '14.17.4'
+buildCommand: hugo --gc --minify
 publishDir: public
 staticDir: static
-uploadDir: images
-dataDir: data
+uploadDir: content/uploads
+dataDir: ""
 pagesDir: content
+excludePages:
+  - README.md
+  - CONTRIBUTING.md
 pageLayoutKey: layout
 logicFields:
   - blog_feed_section.recent_count

@@ -42,6 +42,7 @@ models:
   config:
     type: config
     label: Site Configuration
+    file: config.yaml
     fields:
       - type: string
         name: title

@@ -9,7 +9,6 @@ uploadDir: content/uploads
 dataDir: ""
 pagesDir: content
 excludePages:
-  - doc/**/*
   - README.md
   - CONTRIBUTING.md
 pageLayoutKey: layout

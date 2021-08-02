@@ -37,7 +37,7 @@ models:
   config:
     type: data
     label: Config
-    file: config.yml  # relative to `dataDir` which is the root folder
+    file: config.yaml  # relative to `dataDir` which is the root folder
     fields:
   config:
     type: config

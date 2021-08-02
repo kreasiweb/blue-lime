@@ -35,11 +35,6 @@ pageData:
       - '[1].fields.palette'
 models:
   config:
-    type: data
-    label: Config
-    file: config.yaml  # relative to `dataDir` which is the root folder
-    fields:
-  config:
     type: config
     label: Site Configuration
     file: config.yaml
